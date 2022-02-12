@@ -12,7 +12,7 @@ How does it work? You simply send audio file (from Telegram Desktop, Web or OSX)
 
 The bot doesn't store any media, instead it only keeps track metadata, while the files are hosted on Telegram servers.
 
-It's written in Python 3, powered by [aiotg](https://github.com/szastupov/aiotg) framework and uses [MongoDB](https://www.mongodb.com) for index.
+It's written in Python 3, powered by [aiotg](https://github.com/rrkgupta/aiotg) framework and uses [MongoDB](https://www.mongodb.com) for index.
 
 You can easily run your own instance with [docker-compose](1):
 ```yml
